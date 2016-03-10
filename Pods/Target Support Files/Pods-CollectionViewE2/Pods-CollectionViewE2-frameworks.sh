@@ -84,10 +84,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-CollectionViewE2/AFNetworking.framework"
+  install_framework "Pods-CollectionViewE2/AFNetworking_ImageActivityIndicator.framework"
   install_framework "Pods-CollectionViewE2/Alamofire.framework"
   install_framework "Pods-CollectionViewE2/MapleBacon.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-CollectionViewE2/AFNetworking.framework"
+  install_framework "Pods-CollectionViewE2/AFNetworking_ImageActivityIndicator.framework"
   install_framework "Pods-CollectionViewE2/Alamofire.framework"
   install_framework "Pods-CollectionViewE2/MapleBacon.framework"
 fi

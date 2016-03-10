@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 import MapleBacon
+//import <AFNetworking+ImageActivityIndicator/AFNetworking+ImageActivityIndicator.h>
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
 
