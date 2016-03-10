@@ -9,5 +9,7 @@
 import UIKit
 
 class CustomCollectionViewCell: UICollectionViewCell {
-    
+    @IBOutlet weak var imageViewProduct:UIImageView!
+    @IBOutlet weak var lblName:UILabel!
+    @IBOutlet weak var lblProduct:UILabel!
 }
